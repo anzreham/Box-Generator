@@ -24,6 +24,8 @@ function App() {
       // values.newvid = clr;
       // setValues(prevState => prevState.newvid = clr);
       setState(prevState => [...prevState, clr] );
+      setcolor("");
+    
   
     };
 
@@ -47,7 +49,7 @@ function App() {
       <div className="row"> 
       <div className="col-sm-10">
 
-      <form  onSubmit = {handleSubmit} novalidate>
+      <form  onSubmit = {handleSubmit} novalidate   >
     
     <div className="form-group">
         <label>Type the color: </label> 
