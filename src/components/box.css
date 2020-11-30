@@ -1,0 +1,12 @@
+
+.box{
+
+    display: flex;
+   
+}
+
+.smallbox{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
